@@ -1,0 +1,261 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  font-size: 3rem;
+  color: white;
+  margin: auto auto 3rem;
+}
+
+h1, h2, h3 ,h4, h5, h6 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+
+h2 {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.titleimg {
+  transform: rotate(45deg);
+  width: 60%;
+  position: absolute;
+  right: 15%;
+  top: 3%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .titleimg {
+    transform: rotate(0deg);
+    position: static;
+    width: 60%;
+  }
+}
+
+
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-heading{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  margin-bottom: 1.5rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 2% auto;
+  background-color: #ef8172;
+  color: white;
+}
+
+.consider-text{
+  margin: 3% auto;
+  color: #fff;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
+.consider-head{
+  margin-top: 20px;
+}
+
+
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-header{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.pricingrow {
+  padding: 3% 2%;
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+
+/* Footer */
+#footer {
+  background: white;
+  padding: 7% 15%;
+}
+
+.footer-logo {
+  margin: 2% 5%;
+}
+
+
+
+
+/*Login and Register*/
+
+#login{
+    position: absolute;
+    width: 30%;
+    left: 20%;
+    text-align: left;
+    margin: 5% auto 0;
+    padding: 3% 2% 10%;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: #fff;
+    line-height: 3rem;
+    z-index: 1;
+    box-shadow: 0 0 15px 9px #00000096;
+}
+
+
+
+.form-group{
+    margin: 3rem auto;
+}
+
+.login-btn{
+    width: 40%;
+    margin-left: 18%;
+    display: inline-block;  
+
+}
+
+.text-decoration{
+    color: grey;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.text-decoration:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+#register{
+    background-color: #ff4368;
+    position: relative;
+    margin: 12% auto 0;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.register-text{
+    width: 20%;
+    position: relative;
+    text-align: left;
+    padding: 10% auto;
+    left: 70%;
+    margin: 3%;
+    line-height: 3rem;
+}
+
+.register-heading{
+    position: relative;
+    font-size: 2rem;
+    width: 100%;
+    margin: 5% 3%;
+    line-height: 3rem;
+}
+
+.register-body{
+    font-size: 1rem;
+    margin: 3% 3%;
+     line-height: 3rem;
+}
+
+
+.register-btn{
+    width: 40%;
+    margin-left: 15%;
+    display: inline-block;  
+}
+
+
+.first-heading{
+    position: relative;
+    left: 1%; 
+    padding: 2% 1% 2%;
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+}
