@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <title>CFC</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1e71e1d7f9.js" crossorigin="anonymous"></script>
+
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+ background-color: #ff4c68;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav-right {
+  float: right;
+}
+
+#aboutus {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #ff4c68;
+  margin-top: 5%;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+.column {
+  text-align: center;
+  float: left;
+  width: 30%;
+  padding: 5px;
+  margin: auto 10px;
+  text-align: center;
+}
+
+/* Clearfix (clear floats) */
+.row{
+  margin:auto auto auto 10px;
+  width: 99%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer-logo {
+  margin: 2% 5%;
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+<!-- content -->
+ <nav id='mainNav' class="topnav" >
+  <a href="#menu">Menu</a>
+  <a href="#monthly">Monthly Subscription</a>
+  <a href="#weekly">Weekly Subscription</a>
+  <a href="#aboutus">About us</a>
+  <div class="topnav-right">
+    <a href="#profile"><div> <span class = "glyphicon glyphicon-user"> <br> Username </span> </div></a>
+    <a href="#signout"> <button type="button" class="btn btn-danger"><a href="index.html">Sign out</a></button></a>
+  </div>
+</nav>
+
+<div style="padding-left:16px">
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="images/Momos.png" alt="Momos" style="width:100%;height:300px">
+     <h4> Momo</h4>
+    <form action="/action_page.php">
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  <input type="submit">
+</form>
+
+  </div>
+  <div class="column">
+    <img src="images/chowmewin.jpg" alt="chowmewin" style="width:100%;height:300px">
+     <h4>Chowmewin</h4>
+      <form action="/action_page.php">
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  <input type="submit">
+</form>
+  </div>
+  <div class="column">
+    <img src="images/friedrice.png" alt="friedrice" style="width:100%;height:300px">
+     <h4>friedrice</h4>
+      <form action="/action_page.php">
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  <input type="submit">
+</form>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="images/dalbaat.jpg" alt="Dalbaat" style="width:100%;height:300px">
+     <h4> Daalbhat</h4>
+      <form action="/action_page.php">
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  <input type="submit">
+</form>
+  </div>
+  <div class="column">
+    <img src="images/samosa.jpg" alt="Samosa" style="width:100%;height:300px">
+     <h4>Samosa</h4>
+     <form action="/action_page.php">
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  <input type="submit">
+</form>
+  </div>
+  <div class="column">
+    <img src="images/cold.png" alt="Cold Drinks" style="width:100%;height:300px">
+     <h4>Cold Drinks</h4>
+      <form action="/action_page.php">
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  <input type="submit">
+</form>
+  </div>
+</div>
+
+</div>
+  <!-- ******************************** -->
+  <div id="aboutus">
+     <footer id="footer">
+    <i class="footer-logo fab fa-twitter"></i>
+    <i class="footer-logo fab fa-facebook-f"></i>
+    <i class="footer-logo fab fa-instagram"></i>
+    <i class="footer-logo fas fa-envelope"></i>
+  </footer>
+    <h3 class="title">About Us</h3>
+      <div class="about-bio">
+         <p>Cloudfactory canteen is amining to provide quality food to cloudworkers ans something something</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
